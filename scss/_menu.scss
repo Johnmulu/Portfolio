@@ -64,7 +64,7 @@
         }
     }
     &-branding{
-        background: lighten(#444,5);
+        background: lighten($primary-color,5);
         transform: translate3d(0,100%,0);
         @include easeOut;
         &.show{
@@ -73,7 +73,7 @@
         .portrait{
             width: 250px;
             height: 250px;
-            background-image: url('../img/portrate.jpg');
+            background: url('../img/portrate.jpg');
             border-radius: 50%;
             border: solid 3px $secondary-color;        
         }
