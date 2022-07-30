@@ -90,6 +90,17 @@
 .nav-item:nth-child(4) {
   transition-delay: 0.4s; }
 
+@media screen and (min-width: 501px) and (max-width: 768px) {
+  align-items: center;
+  text-align: center;
+  .lg-heading {
+    line-height: 0.1;
+    margin-bottom: 1rem; } }
+
+@media screen and (max-width: 500px) {
+  main#home h1 {
+    margin-top: 10vh; } }
+
 * {
   box-sizing: border-box; }
 
